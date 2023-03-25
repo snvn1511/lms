@@ -4,6 +4,7 @@
 
 ### Bước 2: Bấm F12 (hoặc kích phải chuột lên màn hình --> chọn Inspect / hoặc chữ "Kiểm tra phần tử")
 
+![Huong-dan](https://raw.githubusercontent.com/snvn1511/lms/main/quiz/tool-lay-diem-quiz.png)
 
 ### Bước 3: Copy đoạn code dưới đây paste vào cửa sổ Console và Enter, sau đó đợi một lát sẽ có kết quả
 
