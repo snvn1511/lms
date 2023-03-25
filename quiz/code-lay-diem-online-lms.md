@@ -1,5 +1,5 @@
 # Code lấy điểm online trên LMS
-### Bước 1: Mở lớp trên LMS, vào trang lấy điểm online 
+### Bước 1: Mở lớp trên LMS, vào trang lấy điểm online (phải vào trang nhìn thấy bảng điểm như trong ảnh)
 
 ### Bước 2: Bấm F12 để mở cửa sổ console
 
