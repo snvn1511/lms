@@ -1,4 +1,4 @@
-# Code lấy điểm online trên LMS
+# Code lấy điểm online môn học UI/UX
 ### Bước 1: Mở lớp trên LMS, vào trang lấy điểm online (phải vào trang nhìn thấy bảng điểm như trong ảnh)
 
 ### Bước 2: Bấm F12 để mở cửa sổ console
