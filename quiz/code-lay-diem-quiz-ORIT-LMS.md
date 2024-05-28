@@ -1,4 +1,4 @@
-# Code lấy điểm Quiz LMS
+# Code lấy điểm Quiz ORIT LMS
 
 ### Bước 1: Mở lớp trên LMS để nhìn thấy danh sách 8 Quiz
 
