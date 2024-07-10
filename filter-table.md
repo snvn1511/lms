@@ -1,4 +1,9 @@
-Tool tạo nhanh ô tìm kiếm trong bảng
+# Tool tạo nhanh ô tìm kiếm trong bảng
+
+
+## B1 Hiển thị bảng trên trang web
+## B2 Bấm F12 để vào cửa sổ console
+## B3 Paste code dưới đây vào cửa sổ console enter
 
 ```
 $(document).ready(function(){
@@ -18,4 +23,4 @@ $(document).ready(function(){
 });
 
 ```
-
+## B4 Sau khi tìm kiếm có thể chọn cả bảng và copy bảng
