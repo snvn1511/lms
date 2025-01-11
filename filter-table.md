@@ -24,3 +24,43 @@ $(document).ready(function(){
 
 ```
 ## B4 Sau khi tìm kiếm có thể chọn cả bảng và copy bảng
+
+
+# Tool tạo nút export bảng thành file csv
+
+```
+// Hàm xuất bảng HTML ra file CSV với mã hóa UTF-8 để tránh lỗi font
+function exportTableToCSV(filename) {
+    const table = document.querySelector('#inspection-body table');
+    let csv = [];
+
+    // Lặp qua từng hàng của bảng
+    table.querySelectorAll('tr').forEach(row => {
+        let rowData = [];
+        // Lặp qua từng ô của hàng
+        row.querySelectorAll('th, td').forEach(cell => {
+            rowData.push('"' + cell.innerText.replace(/"/g, '""') + '"');
+        });
+        csv.push(rowData.join(','));
+    });
+
+    // Tạo file CSV với mã hóa UTF-8
+    const csvContent = '\ufeff' + csv.join('\n');
+    const csvFile = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+    const csvUrl = URL.createObjectURL(csvFile);
+
+    // Tạo thẻ a để tải file
+    const downloadLink = document.createElement('a');
+    downloadLink.href = csvUrl;
+    downloadLink.download = filename;
+    document.body.appendChild(downloadLink);
+    downloadLink.click();
+    document.body.removeChild(downloadLink);
+}
+// tạo nút bấm
+
+  $("#inspection-body").prepend( jQuery('<button onclick="exportTableToCSV(\'bang_du_gio.csv\')">Export CSV</button>') );
+// Gọi hàm khi click vào nút
+// <button onclick="exportTableToCSV('table_export.csv')">Export CSV</button>
+
+```
