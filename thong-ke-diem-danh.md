@@ -1,6 +1,6 @@
 # Code thống kê điểm danh
 
-⚠️WARNING⚠️ *** Khi xảy ra lỗi cần bấm F5 để tải lại trang web để xác thực danh tính thành công mới dùng tiếp được ***
+⚠️WARNING⚠️ ***Khi xảy ra lỗi cần bấm F5 để tải lại trang web để xác thực danh tính thành công mới dùng tiếp được***
 
 ## Bước 1: Mở trang GV vào phần Lớp của tôi 
 ==> Bấm vào tên 1 lớp sau đó bấm phím F12 để mở cửa sổ Console
