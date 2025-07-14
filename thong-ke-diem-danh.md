@@ -1,5 +1,7 @@
 # Code thống kê điểm danh
 
+<span style="color:red; font-weight:bold; font-size: 20px">Khi xảy ra lỗi cần bấm F5 để tải lại trang web để xác thực danh tính thành công mới dùng tiếp được</span>
+
 ## Bước 1: Mở trang GV vào phần Lớp của tôi 
 ==> Bấm vào tên 1 lớp sau đó bấm phím F12 để mở cửa sổ Console
 
